@@ -1,0 +1,26 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro&display=swap');
+
+$font-heading: 'Muli', 'sans-serif';
+$font-text: 'Source Sans Pro', 'sans-serif';
+
+$color-blue: #042f4b;
+$color-cream: #fff6da;
+$color-skin: #fbc99d;
+$color-pink: #ed1250;
+$color-green: #02c744;
+$color-red: #ff8080;
+$color-grey: #D3D3D3;
+
+body {
+  //background-color: $color-cream;
+}
+
+@import './pages/index';
+@import './common/index';

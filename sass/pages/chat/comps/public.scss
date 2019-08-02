@@ -1,0 +1,107 @@
+
+
+.message-green{
+  background-color: #9cf196 !important;
+  color: darken(#9cf196, 50%) !important;
+}
+
+.message-red{
+  background-color: #ff8080 !important;
+}
+
+.message-yellow{
+  background-color: #f9e090 !important;
+  color: darken(#f9e090, 50%) !important;
+}
+
+.message-blue{
+  background-color: #7ecfc0 !important;
+  color: darken(#7ecfc0, 50%) !important;
+}
+
+.page-chat-comp-public-main{
+  border-right: 3px solid $color-red;
+}
+
+  .page-chat-comp-public-main-box{
+    //border: 5px solid red;
+    height: 70vh !important;
+    overflow: auto;
+    padding-left: 3vw !important;
+    padding-right: 3vw !important;
+    border-radius: 5px;
+  }
+
+    .page-chat-comp-public-main-box-message-line{
+      width: 100%;
+      overflow: auto;
+      padding-top: 2vh;
+      padding-bottom: 2vh !important;
+    }
+
+    .page-chat-comp-public-main-box-message{
+      max-width: 90%;
+      min-height: 5vh !important;
+      padding: 10px;
+      font-family: $font-text;
+      color:white;
+      background-color: #7ecfc0;
+    }
+
+      .page-chat-comp-public-main-box-message-text{
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      .page-chat-comp-public-main-box-message-username{
+        background-color: $color-blue;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        float: right;
+        text-transform: capitalize;
+        color:white !important;
+      }
+
+  //***********************
+  //post
+
+  .page-chat-comp-public-main-post{
+    //border: 5px solid red;
+    height: 18vh !important;
+    overflow: auto;
+    position: relative;
+  }
+
+    .page-chat-comp-public-main-post-textbox{
+      height: 100%;
+      width: 100%;
+      top: 0%;
+      left: 0%;
+      position: absolute;
+      padding: 10px;
+      font-size: 20px;
+      font-family: $font-text;
+      background-color: $color-cream;
+      color: darken(#9cf196, 50%) !important;
+      border: 0px;
+      border-top: 3px solid $color-red;
+    }
+
+    .page-chat-comp-public-main-post-button{
+      position: absolute;
+      z-index: 99;
+      bottom: 5px;
+      right: 5px;
+      background-color: $color-blue;
+      color:white;
+      border-radius: 5px;
+      border: 0px;
+      padding: 10px;
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+
+    .page-chat-comp-public-main-post-button:hover{
+      background-color: $color-green;
+    }

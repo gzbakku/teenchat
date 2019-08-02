@@ -1,0 +1,116 @@
+
+.tab-cont-main{
+  box-sizing: border-box;
+  width: 100%;
+  min-height:50px;
+  //margin-top: 8vh;
+}
+
+  .tab-cont-links{
+    height: 50px;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid $color-grey;
+    //position: fixed;
+    //top:8vh;
+    //left:0px;
+    //background-color: white;
+    //z-index: 999;
+  }
+
+  .tab-cont-links-fixed{
+    height: 50px;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid $color-grey;
+    position: fixed;
+    top:8vh;
+    left:0px;
+    background-color: white;
+    z-index: 999;
+  }
+
+  .tab-cont-links-fixed-level-2{
+    height: 50px;
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    //border-bottom: 1px solid $color-grey;
+    position: fixed;
+    bottom:0;
+    left:0px;
+    background-color: white;
+    z-index: 999;
+    border-top: 1px solid $color-grey;
+  }
+
+    .tab-idle{
+      border: 0px;
+      min-width:100px !important;
+      display: block;
+      height: 100%;
+      box-sizing: border-box;
+      float: left;
+      padding: 10px;
+      font-family: $font-text;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+      text-transform: capitalize;
+      //border-right: 1px solid $color-grey
+      border-bottom: 3px solid white;
+      background-color: inherit;
+    }
+
+      .tab-idle:hover{
+        border-bottom: 3px solid $color-green;
+      }
+
+    .tab-active{
+      border-bottom: 3px solid $color-blue;
+    }
+
+      .tab-active:hover{
+        border-bottom: 3px solid $color-blue;
+        cursor: context-menu;
+      }
+
+    .tab-nav{
+      box-sizing: border-box;
+      width: 10%;
+      float: left;
+      //padding-top: 25px;
+      padding: 10px;
+      overflow: hidden;
+      height: 100%;
+      font-size: 22px;
+      color:$color-blue;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+      .tab-nav:hover{
+        background-color: $color-blue;
+        color:white;
+      }
+
+  .tab-cont-module{
+
+  }
+
+  .tab-cont-module-level-2{
+    margin-top: 8vh;
+  }
+
+@media screen and(max-width:720px){
+
+  .tab-cont-links-fixed{
+    margin-top: 8vh;
+  }
+
+}

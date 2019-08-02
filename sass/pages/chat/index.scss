@@ -1,0 +1,24 @@
+
+
+@import './comps/index.scss';
+
+
+.page-chat-cont{
+  overflow: auto;
+  height: 88vh;
+}
+
+  .page-chat-cont-left{
+    float: left;
+    height: 100%;
+    overflow: auto;
+    width: 70%;
+    border-left: 3px solid $color-blue;
+  }
+
+  .page-chat-cont-right{
+    float: left;
+    height: 100%;
+    overflow: auto;
+    width: 30%;
+  }

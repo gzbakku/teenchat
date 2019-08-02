@@ -1,0 +1,54 @@
+
+
+.message{
+  position: fixed;
+  width: 80vw;
+  left:10vw;
+  top:12vh;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 9999;
+}
+
+  .message-close-cont{
+    text-align: right;
+    padding-right: 10px;
+  }
+
+    .message-close-button{
+      font-size: 20px;
+      font-family: $font-text;
+      color:white;
+      background-color: inherit;
+      border:2px solid white;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 25px;
+    }
+
+  .message-text-cont{
+    font-family: $font-text;
+    color:white;
+    padding: 10px;
+  }
+
+$message-color-info: #004c4c;
+$message-color-warning: #ebb329;
+$message-color-danger: #ff3642;
+$message-color-success: #89c61c;
+
+.message-info{
+  background-color: $message-color-info;
+}
+
+.message-success{
+  background-color: $message-color-success;
+}
+
+.message-warning{
+  background-color: $message-color-warning;
+}
+
+.message-danger{
+  background-color: $message-color-danger;
+}

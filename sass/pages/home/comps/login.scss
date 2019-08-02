@@ -1,0 +1,52 @@
+
+.page-home-login-card{
+  background-color: $color-blue;
+  color:white;
+  text-align: center;
+  width: 400px;
+  min-height: 200px;
+  margin-top: 10vh !important;
+  padding-bottom: 3vh;
+}
+
+  .page-home-login-card-header{
+    background-color: $color-green;
+    font-family: $font-heading;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+    text-transform: capitalize;
+  }
+
+  .page-home-login-card-form{
+    //border:5px solid red;
+  }
+
+    .page-home-login-card-form-input{
+      width: 80%;
+      border-radius: 5px;
+      background-color: darken($color-blue, 10%);
+      color:white;
+      font-family: $font-text;
+      border: 0px;
+      height: 50px;
+      padding: 10px;
+      font-size: 24px;
+      margin-top: 3vh;
+      text-align: center;
+    }
+
+    .page-home-login-card-form-button{
+      width: 80%;
+      border-radius: 5px;
+      background-color: $color-pink;
+      color:white;
+      font-family: $font-text;
+      border: 0px;
+      height: 50px;
+      padding: 10px;
+      margin-top: 3vh;
+      font-size: 24px;
+      cursor: pointer;
+      text-transform: capitalize;
+    }

@@ -1,0 +1,44 @@
+
+
+.page-home-comp-menu{
+  overflow: auto;
+  height: 12vh;
+  border-bottom: 3px solid $color-red;
+}
+
+  .page-home-comp-menu-left{
+    width: 20%;
+    float: left;
+    text-align: center;
+  }
+
+    .page-home-comp-menu-logo{
+      width:25%;
+      height: auto;
+      padding: 10px;
+    }
+
+  .page-home-comp-menu-right{
+    width: 80%;
+    float: left;
+    display: flex;
+    padding-top: 2vh;
+  }
+
+    .page-home-comp-menu-link{
+      flex:1;
+      font-family: $font-heading;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 20px;
+      background-color: inherit;
+      border: 0px;
+      color:$color-pink;
+      text-align: center;
+    }
+
+    .page-home-comp-menu-link:hover{
+      color:$color-green;
+      font-weight: bold;
+      //font-size: 24px;
+    }

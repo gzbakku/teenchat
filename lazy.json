@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "aboutPage",
+    "helpPage",
+    "contactPage"
+  ],
+  "conts": {},
+  "panels": {},
+  "sass": [],
+  "globals": [
+    "ioComp"
+  ]
+}
